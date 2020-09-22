@@ -1,0 +1,73 @@
+body{
+   margin:0px;
+   color: grey;
+   /* text-align: center; */
+   font-family: sans-serif;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+#heading{
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-size: 2.6rem;
+}
+
+.horizontal-list{
+    list-style: none;
+    width: 30%;
+    padding: 0%;
+}
+.contact{
+    border:2px solid white;
+    display: flex;
+    font-size: 1rem;
+    word-spacing: 2px;
+    background-color: #6f92f9;
+    font-weight: 700;
+    color: white;
+}
+.contact .details{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 5px;
+}
+.contact  .delete-button{
+   width: 10%;
+   padding: 15px;
+   text-align: center;
+}
+.delete-button a i{
+    color: rgb(207, 66, 66);
+}
+.contact:hover{
+    background-color: darkgray;
+}
+
+form{
+    border: 2px solid rgba(135, 135, 167, 0.726);
+    border-radius: 5%;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+}
+
+form input{
+    height: 2rem;
+    border: none;
+    border-bottom: 1px solid darkgrey;
+    font-size: 1rem;
+    width: 30%;
+}
+form button{
+    background-color: darkgrey;
+    border: none;
+    width: 4rem;
+    font-size: 1rem;
+    color: white;
+    font-weight: 700;
+}
